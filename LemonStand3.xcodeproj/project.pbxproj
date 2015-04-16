@@ -13,6 +13,8 @@
 		CDD818231A6E76A50002E2B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD818221A6E76A50002E2B1 /* Images.xcassets */; };
 		CDD818261A6E76A50002E2B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD818241A6E76A50002E2B1 /* LaunchScreen.xib */; };
 		CDD818321A6E76A50002E2B1 /* LemonStand3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD818311A6E76A50002E2B1 /* LemonStand3Tests.swift */; };
+		CDD8183C1A6E76A50002E2B1 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8183B1A6E76A50002E2B1 /* Supplies.swift */; };
+		CDD8183F1A6E76A50002E2B1 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8183E1A6E76A50002E2B1 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CDD8182B1A6E76A50002E2B1 /* LemonStand3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStand3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD818301A6E76A50002E2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD818311A6E76A50002E2B1 /* LemonStand3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStand3Tests.swift; sourceTree = "<group>"; };
+		CDD8183B1A6E76A50002E2B1 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		CDD8183E1A6E76A50002E2B1 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Price.swift; path = ../Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				CDD8181B1A6E76A50002E2B1 /* AppDelegate.swift */,
 				CDD8181D1A6E76A50002E2B1 /* ViewController.swift */,
+				CDD8183D1A6E76A50002E2B1 /* Models */,
 				CDD8181F1A6E76A50002E2B1 /* Main.storyboard */,
 				CDD818221A6E76A50002E2B1 /* Images.xcassets */,
 				CDD818241A6E76A50002E2B1 /* LaunchScreen.xib */,
@@ -110,6 +115,15 @@
 				CDD818301A6E76A50002E2B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD8183D1A6E76A50002E2B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8183E1A6E76A50002E2B1 /* Price.swift */,
+				CDD8183B1A6E76A50002E2B1 /* Supplies.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD8181E1A6E76A50002E2B1 /* ViewController.swift in Sources */,
+				CDD8183F1A6E76A50002E2B1 /* Price.swift in Sources */,
+				CDD8183C1A6E76A50002E2B1 /* Supplies.swift in Sources */,
 				CDD8181C1A6E76A50002E2B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
